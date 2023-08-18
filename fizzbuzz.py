@@ -16,16 +16,21 @@ fizzbuzz_count = 0
 for i in range(1, 101):
 
 # if the number divides by 3 and 5, print fizzbuzz
+# also, increment fizzbuzz count by 1
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
         fizzbuzz_count += 1
 
 # if the number divides by 3 only, print fizz
+# also, increment fizz count by 1
+
     elif i % 3 == 0:
         print("Fizz")
         fizz_count += 1
 
 # if the number divides by 5 only, print buzz
+# also, increment buzz count by 1
+
     elif i % 5 == 0:
         print("Buzz")
         buzz_count += 1
